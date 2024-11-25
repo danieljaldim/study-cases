@@ -14,7 +14,7 @@ def multiplicacao(a, b):
 def divisao(a, b):
     return a / b
 try:
-    divisao
+     divisao == 0
 except ZeroDivisionError:
     print('Erro: Divisão por zero não permitida')    
 

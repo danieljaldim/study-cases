@@ -32,16 +32,16 @@ class Connection:
         print('LOG:', msg)
 
 
-def connection_log(msg):
+    def connection_log(msg):
     # Função externa para registrar mensagens de log
-    print('LOG:', msg)
+         print('LOG:', msg)
 
 
 # Cria uma instância da classe Connection com autenticação
 c1 = Connection.create_with_auth('luiz', '1234')
 # As duas linhas a seguir são equivalentes ao que foi feito na linha acima
 # c1.set_user('luiz')
-# c1.set_password('123')
+# c1.set_password('1234')
 
 # Usa o método estático para registrar uma mensagem de log
 print(Connection.log('Essa é a mensagem de log'))

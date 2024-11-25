@@ -44,3 +44,13 @@ with MyOpen('aula149.txt', 'w') as arquivo:
     arquivo.write('Linha 2\n')
     arquivo.write('Linha 3\n')
     print('WITH', arquivo)  # Imprime o objeto arquivo aberto
+     
+     
+     # raise class_exception(*exception_.args).with_traceback(traceback_)
+
+        # print(class_exception)
+        # print(exception_)
+        # print(traceback_)
+        # exception_.add_note('Minha nota')
+
+        # return True  # Tratei a exceção

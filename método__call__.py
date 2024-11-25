@@ -9,7 +9,6 @@ class CallMe:
         print(nome, 'está chamando', self.phone)
         return 2134
 
-
 # Cria uma instância da classe CallMe com o número de telefone '23945876545'.
 call1 = CallMe('23945876545')
 
